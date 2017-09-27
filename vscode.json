@@ -1,0 +1,69 @@
+{
+    // basic
+    "window.zoomLevel": 1,
+    "editor.cursorBlinking": "solid",
+
+    // vim
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.leader": ",",
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "w"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["j"],
+            "after": ["g", "j"]
+        },
+        {
+            "before": ["k"],
+            "after": ["g", "k"]
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["<C-w>"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "cursorLeft",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["<C-f>"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "cursorRight",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["<C-e>"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "cursorEnd",
+                    "args":[]
+                }
+            ]
+        }
+    ],
+
+    // python
+    "jupyter.appendResults": false,
+    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\python.exe",
+    "python.linting.pylintPath": "C:\\ProgramData\\Anaconda3\\Scripts\\pylint.exe",
+    "python.workspaceSymbols.ctagsPath": "C:\\cygwin64\bin\\ctags.exe",
+    "workbench.startupEditor": "none",
+    "python.jediPath": "C:\\ProgramData\\Anaconda3\\Lib\\site-packages"
+}
