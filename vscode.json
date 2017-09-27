@@ -18,6 +18,16 @@
             ]
         },
         {
+            "before": ["<leader>", "q"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        },
+        {
             "before": ["j"],
             "after": ["g", "j"]
         },
@@ -27,16 +37,6 @@
         }
     ],
     "vim.insertModeKeyBindings": [
-        {
-            "before": ["<C-w>"],
-            "after": [],
-            "commands": [
-                {
-                    "command": "cursorLeft",
-                    "args": []
-                }
-            ]
-        },
         {
             "before": ["<C-f>"],
             "after": [],
