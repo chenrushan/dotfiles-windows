@@ -65,5 +65,6 @@
     "python.linting.pylintPath": "C:\\ProgramData\\Anaconda3\\Scripts\\pylint.exe",
     "python.workspaceSymbols.ctagsPath": "C:\\cygwin64\bin\\ctags.exe",
     "workbench.startupEditor": "none",
-    "python.jediPath": "C:\\ProgramData\\Anaconda3\\Lib\\site-packages"
+    "python.jediPath": "C:\\ProgramData\\Anaconda3\\Lib\\site-packages",
+    "editor.lineHeight": 17
 }
