@@ -60,11 +60,18 @@
     ],
 
     // python
-    "jupyter.appendResults": false,
+    "jupyter.appendResults": true,
     "python.pythonPath": "C:\\ProgramData\\Anaconda3\\python.exe",
     "python.linting.pylintPath": "C:\\ProgramData\\Anaconda3\\Scripts\\pylint.exe",
     "python.workspaceSymbols.ctagsPath": "C:\\cygwin64\bin\\ctags.exe",
     "workbench.startupEditor": "none",
     "python.jediPath": "C:\\ProgramData\\Anaconda3\\Lib\\site-packages",
-    "editor.lineHeight": 17
+    "editor.lineHeight": 17,
+    "workbench.colorTheme": "Default Dark+",
+    "python.jupyter.startupCode": [],
+    "terminal.integrated.shell.windows": "C:\\Cygwin64\\bin\\bash.exe",
+    "terminal.integrated.shellArgs.windows": [],
+
+    // C/C++
+    "C_Cpp.intelliSenseEngine": "Default"
 }
