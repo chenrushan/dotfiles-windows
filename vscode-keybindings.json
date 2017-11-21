@@ -1,4 +1,5 @@
 // 将键绑定放入此文件中以覆盖默认值
+// 将键绑定放入此文件中以覆盖默认值
 [
     {
         "key": "ctrl+shift+b",
@@ -17,7 +18,7 @@
         "command": "workbench.action.terminal.toggleTerminal"
     },
     {
-        "key": "ctrl+alt+e",
+        "key": "ctrl+alt+p",
         "command": "workbench.action.quickOpen"
     },
     {
@@ -25,7 +26,7 @@
         "command": "-workbench.action.quickOpen"
     },
     {
-        "key": "ctrl+alt+e",
+        "key": "ctrl+alt+p",
         "command": "workbench.action.quickOpenNavigateNextInFilePicker",
         "when": "inFilesPicker && inQuickOpen"
     },
@@ -41,5 +42,24 @@
     {
         "key": "ctrl+alt+2",
         "command": "workbench.action.terminal.focusAtIndex2"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "extension.vim_ctrl+p",
+        "when": "suggestWidgetVisible && vim.active && vim.use<C-p>"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-extension.vim_ctrl+p",
+        "when": "suggestWidgetVisible && vim.active && vim.use<C-p>"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
     }
 ]
