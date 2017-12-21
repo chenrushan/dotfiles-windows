@@ -1,14 +1,26 @@
 // 将键绑定放入此文件中以覆盖默认值
-// 将键绑定放入此文件中以覆盖默认值
 [
     {
         "key": "ctrl+shift+b",
         "command": "workbench.action.toggleSidebarVisibility"
     },
+
+    // 尝试了好久才终于把 ctrl+b 配成我习惯的 vim 的样子，太爽了
     {
         "key": "ctrl+b",
         "command": "-workbench.action.toggleSidebarVisibility"
     },
+    {
+        "key": "ctrl+b",
+        "command": "-extension.vim_ctrl+b",
+        "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "extension.vim_ctrl+b",
+        "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl"
+    },
+
     {
         "key": "ctrl+alt+r",
         "command": "jupyter.execCurrentCell"
