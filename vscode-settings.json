@@ -56,6 +56,16 @@
                     "args":[]
                 }
             ]
+        },
+        {
+            "before": ["<C-b>"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "cursorLeft",
+                    "args":[]
+                }
+            ]
         }
     ],
 
@@ -67,11 +77,12 @@
     "workbench.startupEditor": "none",
     "python.jediPath": "C:\\ProgramData\\Anaconda3\\Lib\\site-packages",
     "editor.lineHeight": 17,
-    "workbench.colorTheme": "Default Dark+",
+    "workbench.colorTheme": "Monokai",
     "python.jupyter.startupCode": [],
     "terminal.integrated.shell.windows": "C:\\Cygwin64\\bin\\bash.exe",
     "terminal.integrated.shellArgs.windows": [],
 
     // C/C++
-    "C_Cpp.intelliSenseEngine": "Default"
+    "C_Cpp.intelliSenseEngine": "Default",
+    "workbench.panel.location": "bottom"
 }
