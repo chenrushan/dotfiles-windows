@@ -81,5 +81,11 @@
 
     // C/C++
     "C_Cpp.intelliSenseEngine": "Default",
-    "C_Cpp.errorSquiggles": "Disabled" // 没有这个配置会看到一些莫名其妙的错误
+    "clang.cxxflags": [
+        "-std=c++11",
+        "-Wall"
+    ],
+    "C_Cpp.errorSquiggles": "Disabled", // 用 clang 了，把默认的禁掉，默认的不好用
+    "clang.completion.enable": false, // clang completion 好像有点慢，用 vscode 自带的
+    "clang.diagnostic.delay": 0
 }
