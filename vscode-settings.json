@@ -4,7 +4,6 @@
     "editor.cursorBlinking": "solid",
 
     // vim
-    "vim.disableAnnoyingNeovimMessage": true,
     "vim.leader": ",",
     "vim.otherModesKeyBindingsNonRecursive": [
         {
@@ -70,7 +69,6 @@
     ],
 
     // python
-    "jupyter.appendResults": true,
     "python.pythonPath": "C:\\ProgramData\\Anaconda3\\python.exe",
     "python.linting.pylintPath": "C:\\ProgramData\\Anaconda3\\Scripts\\pylint.exe",
     "python.workspaceSymbols.ctagsPath": "C:\\cygwin64\bin\\ctags.exe",
@@ -78,11 +76,10 @@
     "python.jediPath": "C:\\ProgramData\\Anaconda3\\Lib\\site-packages",
     "editor.lineHeight": 17,
     "workbench.colorTheme": "Monokai",
-    "python.jupyter.startupCode": [],
     "terminal.integrated.shell.windows": "C:\\Cygwin64\\bin\\bash.exe",
     "terminal.integrated.shellArgs.windows": [],
 
     // C/C++
     "C_Cpp.intelliSenseEngine": "Default",
-    "workbench.panel.location": "bottom"
+    "C_Cpp.errorSquiggles": "Disabled" // 没有这个配置会看到一些莫名其妙的错误
 }
