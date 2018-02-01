@@ -91,6 +91,13 @@
     "editor.formatOnType": true,
     "C_Cpp.clang_format_style": "Google",
     "[cpp]": {
-        "editor.tabSize": 2
-    }
+        "editor.tabSize": 2,
+        // 这个必须全部都改成 true 不然有时候 auto complete 会不工作
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        }
+    },
+    "explorer.confirmDelete": false
 }
